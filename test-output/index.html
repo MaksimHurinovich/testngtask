@@ -1,0 +1,2568 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">4 suites, 4 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Parallel_(0)">
+              <span class="suite-name border-failed">Parallel (0)</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Parallel_(0)">
+                    <span>C:\Users\Maksim_Hurinovich\Projects\testngtast\src\test\resources\suites\parallel.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Parallel_(0)">
+                    <span class="test-stats">10 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Parallel_(0)">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Parallel_(0)">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Parallel_(0)">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Parallel_(0)">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Parallel_(0)">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">30 methods, 2 failed,   28 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Parallel_(0)" class="hide-methods failed suite-Parallel_(0)"> (hide)</a> <!-- hide-methods failed suite-Parallel_(0) -->
+                      <a href="#" panel-name="suite-Parallel_(0)" class="show-methods failed suite-Parallel_(0)"> (show)</a> <!-- show-methods failed suite-Parallel_(0) -->
+                    </span>
+                    <div class="method-list-content failed suite-Parallel_(0)">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_(0)" title="com.epam.tat.module4.test.MultDoubleTest" hash-for-method="sumDoubleTest(0.5, 0.5, 0.25)">sumDoubleTest(0.5, 0.5, 0.25)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_(0)" title="com.epam.tat.module4.test.DivDoubleTest" hash-for-method="zeroDivisionTest">zeroDivisionTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Parallel_(0) -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Parallel_(0)" class="hide-methods passed suite-Parallel_(0)"> (hide)</a> <!-- hide-methods passed suite-Parallel_(0) -->
+                      <a href="#" panel-name="suite-Parallel_(0)" class="show-methods passed suite-Parallel_(0)"> (show)</a> <!-- show-methods passed suite-Parallel_(0) -->
+                    </span>
+                    <div class="method-list-content passed suite-Parallel_(0)">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_(0)" title="com.epam.tat.module4.test.DivDoubleTest" hash-for-method="divDoubleTest(0.0, 2.253546246E9, 0.0)">divDoubleTest(0.0, 2.253546246E9, 0.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_(0)" title="com.epam.tat.module4.test.DivDoubleTest" hash-for-method="divDoubleTest(-12.0, 2.0, -6.0)">divDoubleTest(-12.0, 2.0, -6.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_(0)" title="com.epam.tat.module4.test.DivDoubleTest" hash-for-method="divDoubleTest(34.0, 2.0, 17.0)">divDoubleTest(34.0, 2.0, 17.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_(0)" title="com.epam.tat.module4.test.DivTest" hash-for-method="divTest(4, 2, 2)">divTest(4, 2, 2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_(0)" title="com.epam.tat.module4.test.DivTest" hash-for-method="divTest(0, 4, 0)">divTest(0, 4, 0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_(0)" title="com.epam.tat.module4.test.DivTest" hash-for-method="divTest(-2, 1, -2)">divTest(-2, 1, -2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_(0)" title="com.epam.tat.module4.test.PositiveNegativeTest" hash-for-method="isNegativeTest">isNegativeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_(0)" title="com.epam.tat.module4.test.PositiveNegativeTest" hash-for-method="isPositiveTest">isPositiveTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_(0)" title="com.epam.tat.module4.test.PowTest" hash-for-method="powTest(2.0, 3.0, 8.0)">powTest(2.0, 3.0, 8.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_(0)" title="com.epam.tat.module4.test.MultTest" hash-for-method="simpleMultTest">simpleMultTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_(0)" title="com.epam.tat.module4.test.SubDoubleTest" hash-for-method="subTest(-0.3, 2.4, -2.7)">subTest(-0.3, 2.4, -2.7)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_(0)" title="com.epam.tat.module4.test.SubDoubleTest" hash-for-method="subTest(35, 0.2, 34.8)">subTest(35, 0.2, 34.8)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_(0)" title="com.epam.tat.module4.test.SubDoubleTest" hash-for-method="subTest(0, 0, 0)">subTest(0, 0, 0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_(0)" title="com.epam.tat.module4.test.SubTest" hash-for-method="subTest">subTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_(0)" title="com.epam.tat.module4.test.SubTest" hash-for-method="subTest">subTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_(0)" title="com.epam.tat.module4.test.SubTest" hash-for-method="subTest">subTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_(0)" title="com.epam.tat.module4.test.SubTest" hash-for-method="subTest">subTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_(0)" title="com.epam.tat.module4.test.SubTest" hash-for-method="subTest">subTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_(0)" title="com.epam.tat.module4.test.SubTest" hash-for-method="subTest">subTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_(0)" title="com.epam.tat.module4.test.SumDoubleTest" hash-for-method="sumDoubleTest(0.5, 0.75, 1.25)">sumDoubleTest(0.5, 0.75, 1.25)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_(0)" title="com.epam.tat.module4.test.SumDoubleTest" hash-for-method="sumDoubleTest(1, 3, 4)">sumDoubleTest(1, 3, 4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_(0)" title="com.epam.tat.module4.test.SumDoubleTest" hash-for-method="sumDoubleTest(-6.3, 0, -6.3)">sumDoubleTest(-6.3, 0, -6.3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_(0)" title="com.epam.tat.module4.test.MultDoubleTest" hash-for-method="sumDoubleTest(15, 3, 45)">sumDoubleTest(15, 3, 45)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_(0)" title="com.epam.tat.module4.test.MultDoubleTest" hash-for-method="sumDoubleTest(6.3, 0, 0)">sumDoubleTest(6.3, 0, 0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_(0)" title="com.epam.tat.module4.test.SumTest" hash-for-method="sumTest(1, 1, 2)">sumTest(1, 1, 2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_(0)" title="com.epam.tat.module4.test.SumTest" hash-for-method="sumTest(0, 1, 1)">sumTest(0, 1, 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_(0)" title="com.epam.tat.module4.test.SumTest" hash-for-method="sumTest(-1, 1, 0)">sumTest(-1, 1, 0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Parallel_(0)" title="com.epam.tat.module4.test.DivTest" hash-for-method="zeroDivisionTest">zeroDivisionTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Parallel_(0) -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-CalculatorSuite">
+              <span class="suite-name border-failed">CalculatorSuite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-CalculatorSuite">
+                    <span>C:\Users\Maksim_Hurinovich\Projects\testngtast\src\test\resources\suites\calculator.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-CalculatorSuite">
+                    <span class="test-stats">10 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-CalculatorSuite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-CalculatorSuite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-CalculatorSuite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-CalculatorSuite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-CalculatorSuite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">30 methods, 2 failed,   28 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-CalculatorSuite" class="hide-methods failed suite-CalculatorSuite"> (hide)</a> <!-- hide-methods failed suite-CalculatorSuite -->
+                      <a href="#" panel-name="suite-CalculatorSuite" class="show-methods failed suite-CalculatorSuite"> (show)</a> <!-- show-methods failed suite-CalculatorSuite -->
+                    </span>
+                    <div class="method-list-content failed suite-CalculatorSuite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CalculatorSuite" title="com.epam.tat.module4.test.MultDoubleTest" hash-for-method="sumDoubleTest(0.5, 0.5, 0.25)">sumDoubleTest(0.5, 0.5, 0.25)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CalculatorSuite" title="com.epam.tat.module4.test.DivDoubleTest" hash-for-method="zeroDivisionTest">zeroDivisionTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-CalculatorSuite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-CalculatorSuite" class="hide-methods passed suite-CalculatorSuite"> (hide)</a> <!-- hide-methods passed suite-CalculatorSuite -->
+                      <a href="#" panel-name="suite-CalculatorSuite" class="show-methods passed suite-CalculatorSuite"> (show)</a> <!-- show-methods passed suite-CalculatorSuite -->
+                    </span>
+                    <div class="method-list-content passed suite-CalculatorSuite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CalculatorSuite" title="com.epam.tat.module4.test.DivDoubleTest" hash-for-method="divDoubleTest(34.0, 2.0, 17.0)">divDoubleTest(34.0, 2.0, 17.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CalculatorSuite" title="com.epam.tat.module4.test.DivDoubleTest" hash-for-method="divDoubleTest(-12.0, 2.0, -6.0)">divDoubleTest(-12.0, 2.0, -6.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CalculatorSuite" title="com.epam.tat.module4.test.DivDoubleTest" hash-for-method="divDoubleTest(0.0, 2.253546246E9, 0.0)">divDoubleTest(0.0, 2.253546246E9, 0.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CalculatorSuite" title="com.epam.tat.module4.test.DivTest" hash-for-method="divTest(4, 2, 2)">divTest(4, 2, 2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CalculatorSuite" title="com.epam.tat.module4.test.DivTest" hash-for-method="divTest(-2, 1, -2)">divTest(-2, 1, -2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CalculatorSuite" title="com.epam.tat.module4.test.DivTest" hash-for-method="divTest(0, 4, 0)">divTest(0, 4, 0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CalculatorSuite" title="com.epam.tat.module4.test.PositiveNegativeTest" hash-for-method="isNegativeTest">isNegativeTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CalculatorSuite" title="com.epam.tat.module4.test.PositiveNegativeTest" hash-for-method="isPositiveTest">isPositiveTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CalculatorSuite" title="com.epam.tat.module4.test.PowTest" hash-for-method="powTest(2.0, 3.0, 8.0)">powTest(2.0, 3.0, 8.0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CalculatorSuite" title="com.epam.tat.module4.test.MultTest" hash-for-method="simpleMultTest">simpleMultTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CalculatorSuite" title="com.epam.tat.module4.test.SubTest" hash-for-method="subTest">subTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CalculatorSuite" title="com.epam.tat.module4.test.SubTest" hash-for-method="subTest">subTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CalculatorSuite" title="com.epam.tat.module4.test.SubTest" hash-for-method="subTest">subTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CalculatorSuite" title="com.epam.tat.module4.test.SubTest" hash-for-method="subTest">subTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CalculatorSuite" title="com.epam.tat.module4.test.SubTest" hash-for-method="subTest">subTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CalculatorSuite" title="com.epam.tat.module4.test.SubTest" hash-for-method="subTest">subTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CalculatorSuite" title="com.epam.tat.module4.test.SubDoubleTest" hash-for-method="subTest(-0.3, 2.4, -2.7)">subTest(-0.3, 2.4, -2.7)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CalculatorSuite" title="com.epam.tat.module4.test.SubDoubleTest" hash-for-method="subTest(0, 0, 0)">subTest(0, 0, 0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CalculatorSuite" title="com.epam.tat.module4.test.SubDoubleTest" hash-for-method="subTest(35, 0.2, 34.8)">subTest(35, 0.2, 34.8)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CalculatorSuite" title="com.epam.tat.module4.test.SumDoubleTest" hash-for-method="sumDoubleTest(1, 3, 4)">sumDoubleTest(1, 3, 4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CalculatorSuite" title="com.epam.tat.module4.test.SumDoubleTest" hash-for-method="sumDoubleTest(0.5, 0.75, 1.25)">sumDoubleTest(0.5, 0.75, 1.25)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CalculatorSuite" title="com.epam.tat.module4.test.SumDoubleTest" hash-for-method="sumDoubleTest(-6.3, 0, -6.3)">sumDoubleTest(-6.3, 0, -6.3)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CalculatorSuite" title="com.epam.tat.module4.test.MultDoubleTest" hash-for-method="sumDoubleTest(6.3, 0, 0)">sumDoubleTest(6.3, 0, 0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CalculatorSuite" title="com.epam.tat.module4.test.MultDoubleTest" hash-for-method="sumDoubleTest(15, 3, 45)">sumDoubleTest(15, 3, 45)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CalculatorSuite" title="com.epam.tat.module4.test.SumTest" hash-for-method="sumTest(0, 1, 1)">sumTest(0, 1, 1)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CalculatorSuite" title="com.epam.tat.module4.test.SumTest" hash-for-method="sumTest(-1, 1, 0)">sumTest(-1, 1, 0)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CalculatorSuite" title="com.epam.tat.module4.test.SumTest" hash-for-method="sumTest(1, 1, 2)">sumTest(1, 1, 2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-CalculatorSuite" title="com.epam.tat.module4.test.DivTest" hash-for-method="zeroDivisionTest">zeroDivisionTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-CalculatorSuite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Parallel_(0)" class="panel Parallel_(0)">
+          <div class="suite-Parallel_(0)-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.epam.tat.module4.test.DivDoubleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="zeroDivisionTest">
+                  </a> <!-- zeroDivisionTest -->
+                  <span class="method-name">zeroDivisionTest</span>
+                  <div class="stack-trace">org.testng.TestException: 
+Method DivDoubleTest.zeroDivisionTest()[pri:0, instance:com.epam.tat.module4.test.DivDoubleTest@4cdbe50f] should have thrown an exception of type class java.lang.NumberFormatException
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 13 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Parallel_(0)-class-failed -->
+          <div class="suite-Parallel_(0)-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.epam.tat.module4.test.MultDoubleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sumDoubleTest(0.5, 0.5, 0.25)">
+                  </a> <!-- sumDoubleTest(0.5, 0.5, 0.25) -->
+                  <span class="method-name">sumDoubleTest</span>
+                  <span class="parameters">(0.5, 0.5, 0.25)</span>
+                  <div class="stack-trace">java.lang.AssertionError: defect founded in mult with double arguments expected [0.25] but found [0.0]
+	at com.epam.tat.module4.test.MultDoubleTest.sumDoubleTest(MultDoubleTest.java:26)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 19 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Parallel_(0)-class-failed -->
+          <div class="suite-Parallel_(0)-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.epam.tat.module4.test.SumTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sumTest(1, 1, 2)">
+                  </a> <!-- sumTest(1, 1, 2) -->
+                  <span class="method-name">sumTest</span>
+                  <span class="parameters">(1, 1, 2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sumTest(0, 1, 1)">
+                  </a> <!-- sumTest(0, 1, 1) -->
+                  <span class="method-name">sumTest</span>
+                  <span class="parameters">(0, 1, 1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sumTest(-1, 1, 0)">
+                  </a> <!-- sumTest(-1, 1, 0) -->
+                  <span class="method-name">sumTest</span>
+                  <span class="parameters">(-1, 1, 0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Parallel_(0)-class-passed -->
+          <div class="suite-Parallel_(0)-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.epam.tat.module4.test.DivDoubleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="divDoubleTest(0.0, 2.253546246E9, 0.0)">
+                  </a> <!-- divDoubleTest(0.0, 2.253546246E9, 0.0) -->
+                  <span class="method-name">divDoubleTest</span>
+                  <span class="parameters">(0.0, 2.253546246E9, 0.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="divDoubleTest(-12.0, 2.0, -6.0)">
+                  </a> <!-- divDoubleTest(-12.0, 2.0, -6.0) -->
+                  <span class="method-name">divDoubleTest</span>
+                  <span class="parameters">(-12.0, 2.0, -6.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="divDoubleTest(34.0, 2.0, 17.0)">
+                  </a> <!-- divDoubleTest(34.0, 2.0, 17.0) -->
+                  <span class="method-name">divDoubleTest</span>
+                  <span class="parameters">(34.0, 2.0, 17.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Parallel_(0)-class-passed -->
+          <div class="suite-Parallel_(0)-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.epam.tat.module4.test.SubDoubleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="subTest(-0.3, 2.4, -2.7)">
+                  </a> <!-- subTest(-0.3, 2.4, -2.7) -->
+                  <span class="method-name">subTest</span>
+                  <span class="parameters">(-0.3, 2.4, -2.7)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="subTest(35, 0.2, 34.8)">
+                  </a> <!-- subTest(35, 0.2, 34.8) -->
+                  <span class="method-name">subTest</span>
+                  <span class="parameters">(35, 0.2, 34.8)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="subTest(0, 0, 0)">
+                  </a> <!-- subTest(0, 0, 0) -->
+                  <span class="method-name">subTest</span>
+                  <span class="parameters">(0, 0, 0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Parallel_(0)-class-passed -->
+          <div class="suite-Parallel_(0)-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.epam.tat.module4.test.MultDoubleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sumDoubleTest(15, 3, 45)">
+                  </a> <!-- sumDoubleTest(15, 3, 45) -->
+                  <span class="method-name">sumDoubleTest</span>
+                  <span class="parameters">(15, 3, 45)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sumDoubleTest(6.3, 0, 0)">
+                  </a> <!-- sumDoubleTest(6.3, 0, 0) -->
+                  <span class="method-name">sumDoubleTest</span>
+                  <span class="parameters">(6.3, 0, 0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Parallel_(0)-class-passed -->
+          <div class="suite-Parallel_(0)-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.epam.tat.module4.test.PowTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="powTest(2.0, 3.0, 8.0)">
+                  </a> <!-- powTest(2.0, 3.0, 8.0) -->
+                  <span class="method-name">powTest</span>
+                  <span class="parameters">(2.0, 3.0, 8.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Parallel_(0)-class-passed -->
+          <div class="suite-Parallel_(0)-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.epam.tat.module4.test.PositiveNegativeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="isNegativeTest">
+                  </a> <!-- isNegativeTest -->
+                  <span class="method-name">isNegativeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isPositiveTest">
+                  </a> <!-- isPositiveTest -->
+                  <span class="method-name">isPositiveTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Parallel_(0)-class-passed -->
+          <div class="suite-Parallel_(0)-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.epam.tat.module4.test.DivTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="divTest(4, 2, 2)">
+                  </a> <!-- divTest(4, 2, 2) -->
+                  <span class="method-name">divTest</span>
+                  <span class="parameters">(4, 2, 2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="divTest(0, 4, 0)">
+                  </a> <!-- divTest(0, 4, 0) -->
+                  <span class="method-name">divTest</span>
+                  <span class="parameters">(0, 4, 0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="divTest(-2, 1, -2)">
+                  </a> <!-- divTest(-2, 1, -2) -->
+                  <span class="method-name">divTest</span>
+                  <span class="parameters">(-2, 1, -2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="zeroDivisionTest">
+                  </a> <!-- zeroDivisionTest -->
+                  <span class="method-name">zeroDivisionTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Parallel_(0)-class-passed -->
+          <div class="suite-Parallel_(0)-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.epam.tat.module4.test.MultTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="simpleMultTest">
+                  </a> <!-- simpleMultTest -->
+                  <span class="method-name">simpleMultTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Parallel_(0)-class-passed -->
+          <div class="suite-Parallel_(0)-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.epam.tat.module4.test.SumDoubleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sumDoubleTest(0.5, 0.75, 1.25)">
+                  </a> <!-- sumDoubleTest(0.5, 0.75, 1.25) -->
+                  <span class="method-name">sumDoubleTest</span>
+                  <span class="parameters">(0.5, 0.75, 1.25)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sumDoubleTest(1, 3, 4)">
+                  </a> <!-- sumDoubleTest(1, 3, 4) -->
+                  <span class="method-name">sumDoubleTest</span>
+                  <span class="parameters">(1, 3, 4)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sumDoubleTest(-6.3, 0, -6.3)">
+                  </a> <!-- sumDoubleTest(-6.3, 0, -6.3) -->
+                  <span class="method-name">sumDoubleTest</span>
+                  <span class="parameters">(-6.3, 0, -6.3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Parallel_(0)-class-passed -->
+          <div class="suite-Parallel_(0)-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.epam.tat.module4.test.SubTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="subTest">
+                  </a> <!-- subTest -->
+                  <span class="method-name">subTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="subTest">
+                  </a> <!-- subTest -->
+                  <span class="method-name">subTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="subTest">
+                  </a> <!-- subTest -->
+                  <span class="method-name">subTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="subTest">
+                  </a> <!-- subTest -->
+                  <span class="method-name">subTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="subTest">
+                  </a> <!-- subTest -->
+                  <span class="method-name">subTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="subTest">
+                  </a> <!-- subTest -->
+                  <span class="method-name">subTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Parallel_(0)-class-passed -->
+        </div> <!-- panel Parallel_(0) -->
+        <div panel-name="suite-Calculator" class="panel Calculator">
+        </div> <!-- panel Calculator -->
+        <div panel-name="suite-CalculatorSuite" class="panel CalculatorSuite">
+          <div class="suite-CalculatorSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.epam.tat.module4.test.DivDoubleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="zeroDivisionTest">
+                  </a> <!-- zeroDivisionTest -->
+                  <span class="method-name">zeroDivisionTest</span>
+                  <div class="stack-trace">org.testng.TestException: 
+Method DivDoubleTest.zeroDivisionTest()[pri:0, instance:com.epam.tat.module4.test.DivDoubleTest@3ecf72fd] should have thrown an exception of type class java.lang.NumberFormatException
+	at com.epam.tat.module4.test.runner.TestRunner.main(TestRunner.java:40)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+... Removed 23 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CalculatorSuite-class-failed -->
+          <div class="suite-CalculatorSuite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.epam.tat.module4.test.MultDoubleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sumDoubleTest(0.5, 0.5, 0.25)">
+                  </a> <!-- sumDoubleTest(0.5, 0.5, 0.25) -->
+                  <span class="method-name">sumDoubleTest</span>
+                  <span class="parameters">(0.5, 0.5, 0.25)</span>
+                  <div class="stack-trace">java.lang.AssertionError: defect founded in mult with double arguments expected [0.25] but found [0.0]
+	at com.epam.tat.module4.test.MultDoubleTest.sumDoubleTest(MultDoubleTest.java:26)
+	at com.epam.tat.module4.test.runner.TestRunner.main(TestRunner.java:40)
+	at com.intellij.rt.execution.application.AppMain.main(AppMain.java:147)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CalculatorSuite-class-failed -->
+          <div class="suite-CalculatorSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.epam.tat.module4.test.SumTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sumTest(0, 1, 1)">
+                  </a> <!-- sumTest(0, 1, 1) -->
+                  <span class="method-name">sumTest</span>
+                  <span class="parameters">(0, 1, 1)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sumTest(-1, 1, 0)">
+                  </a> <!-- sumTest(-1, 1, 0) -->
+                  <span class="method-name">sumTest</span>
+                  <span class="parameters">(-1, 1, 0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sumTest(1, 1, 2)">
+                  </a> <!-- sumTest(1, 1, 2) -->
+                  <span class="method-name">sumTest</span>
+                  <span class="parameters">(1, 1, 2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CalculatorSuite-class-passed -->
+          <div class="suite-CalculatorSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.epam.tat.module4.test.DivDoubleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="divDoubleTest(34.0, 2.0, 17.0)">
+                  </a> <!-- divDoubleTest(34.0, 2.0, 17.0) -->
+                  <span class="method-name">divDoubleTest</span>
+                  <span class="parameters">(34.0, 2.0, 17.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="divDoubleTest(-12.0, 2.0, -6.0)">
+                  </a> <!-- divDoubleTest(-12.0, 2.0, -6.0) -->
+                  <span class="method-name">divDoubleTest</span>
+                  <span class="parameters">(-12.0, 2.0, -6.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="divDoubleTest(0.0, 2.253546246E9, 0.0)">
+                  </a> <!-- divDoubleTest(0.0, 2.253546246E9, 0.0) -->
+                  <span class="method-name">divDoubleTest</span>
+                  <span class="parameters">(0.0, 2.253546246E9, 0.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CalculatorSuite-class-passed -->
+          <div class="suite-CalculatorSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.epam.tat.module4.test.SubDoubleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="subTest(-0.3, 2.4, -2.7)">
+                  </a> <!-- subTest(-0.3, 2.4, -2.7) -->
+                  <span class="method-name">subTest</span>
+                  <span class="parameters">(-0.3, 2.4, -2.7)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="subTest(0, 0, 0)">
+                  </a> <!-- subTest(0, 0, 0) -->
+                  <span class="method-name">subTest</span>
+                  <span class="parameters">(0, 0, 0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="subTest(35, 0.2, 34.8)">
+                  </a> <!-- subTest(35, 0.2, 34.8) -->
+                  <span class="method-name">subTest</span>
+                  <span class="parameters">(35, 0.2, 34.8)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CalculatorSuite-class-passed -->
+          <div class="suite-CalculatorSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.epam.tat.module4.test.MultDoubleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sumDoubleTest(6.3, 0, 0)">
+                  </a> <!-- sumDoubleTest(6.3, 0, 0) -->
+                  <span class="method-name">sumDoubleTest</span>
+                  <span class="parameters">(6.3, 0, 0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sumDoubleTest(15, 3, 45)">
+                  </a> <!-- sumDoubleTest(15, 3, 45) -->
+                  <span class="method-name">sumDoubleTest</span>
+                  <span class="parameters">(15, 3, 45)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CalculatorSuite-class-passed -->
+          <div class="suite-CalculatorSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.epam.tat.module4.test.PowTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="powTest(2.0, 3.0, 8.0)">
+                  </a> <!-- powTest(2.0, 3.0, 8.0) -->
+                  <span class="method-name">powTest</span>
+                  <span class="parameters">(2.0, 3.0, 8.0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CalculatorSuite-class-passed -->
+          <div class="suite-CalculatorSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.epam.tat.module4.test.PositiveNegativeTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="isNegativeTest">
+                  </a> <!-- isNegativeTest -->
+                  <span class="method-name">isNegativeTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="isPositiveTest">
+                  </a> <!-- isPositiveTest -->
+                  <span class="method-name">isPositiveTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CalculatorSuite-class-passed -->
+          <div class="suite-CalculatorSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.epam.tat.module4.test.DivTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="divTest(4, 2, 2)">
+                  </a> <!-- divTest(4, 2, 2) -->
+                  <span class="method-name">divTest</span>
+                  <span class="parameters">(4, 2, 2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="divTest(-2, 1, -2)">
+                  </a> <!-- divTest(-2, 1, -2) -->
+                  <span class="method-name">divTest</span>
+                  <span class="parameters">(-2, 1, -2)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="divTest(0, 4, 0)">
+                  </a> <!-- divTest(0, 4, 0) -->
+                  <span class="method-name">divTest</span>
+                  <span class="parameters">(0, 4, 0)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="zeroDivisionTest">
+                  </a> <!-- zeroDivisionTest -->
+                  <span class="method-name">zeroDivisionTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CalculatorSuite-class-passed -->
+          <div class="suite-CalculatorSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.epam.tat.module4.test.MultTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="simpleMultTest">
+                  </a> <!-- simpleMultTest -->
+                  <span class="method-name">simpleMultTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CalculatorSuite-class-passed -->
+          <div class="suite-CalculatorSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.epam.tat.module4.test.SumDoubleTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="sumDoubleTest(1, 3, 4)">
+                  </a> <!-- sumDoubleTest(1, 3, 4) -->
+                  <span class="method-name">sumDoubleTest</span>
+                  <span class="parameters">(1, 3, 4)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sumDoubleTest(0.5, 0.75, 1.25)">
+                  </a> <!-- sumDoubleTest(0.5, 0.75, 1.25) -->
+                  <span class="method-name">sumDoubleTest</span>
+                  <span class="parameters">(0.5, 0.75, 1.25)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="sumDoubleTest(-6.3, 0, -6.3)">
+                  </a> <!-- sumDoubleTest(-6.3, 0, -6.3) -->
+                  <span class="method-name">sumDoubleTest</span>
+                  <span class="parameters">(-6.3, 0, -6.3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CalculatorSuite-class-passed -->
+          <div class="suite-CalculatorSuite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.epam.tat.module4.test.SubTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="subTest">
+                  </a> <!-- subTest -->
+                  <span class="method-name">subTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="subTest">
+                  </a> <!-- subTest -->
+                  <span class="method-name">subTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="subTest">
+                  </a> <!-- subTest -->
+                  <span class="method-name">subTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="subTest">
+                  </a> <!-- subTest -->
+                  <span class="method-name">subTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="subTest">
+                  </a> <!-- subTest -->
+                  <span class="method-name">subTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="subTest">
+                  </a> <!-- subTest -->
+                  <span class="method-name">subTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-CalculatorSuite-class-passed -->
+        </div> <!-- panel CalculatorSuite -->
+        <div panel-name="suite-Parallel" class="panel Parallel">
+        </div> <!-- panel Parallel -->
+        <div panel-name="test-xml-Parallel_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Maksim_Hurinovich\Projects\testngtast\src\test\resources\suites\parallel.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;4&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Parallel (0)&quot; parallel=&quot;tests&quot;&gt;
+  &lt;test name=&quot;SumTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.epam.tat.module4.test.SumTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SumTest --&gt;
+  &lt;test name=&quot;SumDoubleTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.epam.tat.module4.test.SumDoubleTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SumDoubleTest --&gt;
+  &lt;test name=&quot;SubTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.epam.tat.module4.test.SubTestFactory&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SubTest --&gt;
+  &lt;test name=&quot;SubDoubleTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.epam.tat.module4.test.SubDoubleTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SubDoubleTest --&gt;
+  &lt;test name=&quot;MultTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.epam.tat.module4.test.MultTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- MultTest --&gt;
+  &lt;test name=&quot;MultDoubleTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.epam.tat.module4.test.MultDoubleTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- MultDoubleTest --&gt;
+  &lt;test name=&quot;DivTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.epam.tat.module4.test.DivTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DivTest --&gt;
+  &lt;test name=&quot;DivDoubleTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.epam.tat.module4.test.DivDoubleTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DivDoubleTest --&gt;
+  &lt;test name=&quot;PowTest&quot;&gt;
+    &lt;parameter name=&quot;arg2&quot; value=&quot;3&quot;/&gt;
+    &lt;parameter name=&quot;arg1&quot; value=&quot;2&quot;/&gt;
+    &lt;parameter name=&quot;expected&quot; value=&quot;8&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.epam.tat.module4.test.PowTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- PowTest --&gt;
+  &lt;test name=&quot;PositiveNegativeTest&quot;&gt;
+    &lt;parameter name=&quot;arg2&quot; value=&quot;3&quot;/&gt;
+    &lt;parameter name=&quot;arg1&quot; value=&quot;2&quot;/&gt;
+    &lt;parameter name=&quot;expected&quot; value=&quot;8&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.epam.tat.module4.test.PositiveNegativeTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- PositiveNegativeTest --&gt;
+&lt;/suite&gt; &lt;!-- Parallel (0) --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-Calculator" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Calculator&quot;&gt;
+  &lt;suite-files&gt;
+    &lt;suite-file path=&quot;./src/test/resources/suites/calculator.xml&quot;/&gt;
+  &lt;/suite-files&gt;
+&lt;/suite&gt; &lt;!-- Calculator --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-CalculatorSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\Maksim_Hurinovich\Projects\testngtast\src\test\resources\suites\calculator.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;CalculatorSuite&quot;&gt;
+  &lt;test name=&quot;SumTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.epam.tat.module4.test.SumTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SumTest --&gt;
+  &lt;test name=&quot;SumDoubleTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.epam.tat.module4.test.SumDoubleTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SumDoubleTest --&gt;
+  &lt;test name=&quot;SubTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.epam.tat.module4.test.SubTestFactory&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SubTest --&gt;
+  &lt;test name=&quot;SubDoubleTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.epam.tat.module4.test.SubDoubleTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- SubDoubleTest --&gt;
+  &lt;test name=&quot;MultTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.epam.tat.module4.test.MultTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- MultTest --&gt;
+  &lt;test name=&quot;MultDoubleTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.epam.tat.module4.test.MultDoubleTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- MultDoubleTest --&gt;
+  &lt;test name=&quot;DivTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.epam.tat.module4.test.DivTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DivTest --&gt;
+  &lt;test name=&quot;DivDoubleTest&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.epam.tat.module4.test.DivDoubleTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- DivDoubleTest --&gt;
+  &lt;test name=&quot;PowTest&quot;&gt;
+    &lt;parameter name=&quot;arg2&quot; value=&quot;3&quot;/&gt;
+    &lt;parameter name=&quot;arg1&quot; value=&quot;2&quot;/&gt;
+    &lt;parameter name=&quot;expected&quot; value=&quot;8&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.epam.tat.module4.test.PowTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- PowTest --&gt;
+  &lt;test name=&quot;PositiveNegativeTest&quot;&gt;
+    &lt;parameter name=&quot;arg2&quot; value=&quot;3&quot;/&gt;
+    &lt;parameter name=&quot;arg1&quot; value=&quot;2&quot;/&gt;
+    &lt;parameter name=&quot;expected&quot; value=&quot;8&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.epam.tat.module4.test.PositiveNegativeTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- PositiveNegativeTest --&gt;
+&lt;/suite&gt; &lt;!-- CalculatorSuite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-Parallel" class="panel">
+          <div class="main-panel-header rounded-window-top">
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Parallel&quot;&gt;
+  &lt;suite-files&gt;
+    &lt;suite-file path=&quot;./src/test/resources/suites/parallel.xml&quot;/&gt;
+  &lt;/suite-files&gt;
+&lt;/suite&gt; &lt;!-- Parallel --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Parallel_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Parallel (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">SumTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">SumDoubleTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">SubTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">SubDoubleTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">MultTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">MultDoubleTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">DivTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">DivDoubleTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">PowTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">PositiveNegativeTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Calculator" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Calculator</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-CalculatorSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for CalculatorSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">SumTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">SumDoubleTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">SubTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">SubDoubleTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">MultTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">MultDoubleTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">DivTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">DivDoubleTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">PowTest (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">PositiveNegativeTest (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Parallel" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Parallel</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Parallel_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Parallel (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Calculator" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Calculator</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-CalculatorSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for CalculatorSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Parallel" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Parallel</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Parallel_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Parallel (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Parallel_(0)');
+function tableData_Parallel_(0)() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(30);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'divTest')
+data.setCell(0, 2, 'com.epam.tat.module4.test.DivTest')
+data.setCell(0, 3, 1016);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'divDoubleTest')
+data.setCell(1, 2, 'com.epam.tat.module4.test.DivDoubleTest')
+data.setCell(1, 3, 1016);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'subTest')
+data.setCell(2, 2, 'com.epam.tat.module4.test.SubDoubleTest')
+data.setCell(2, 3, 1015);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'sumTest')
+data.setCell(3, 2, 'com.epam.tat.module4.test.SumTest')
+data.setCell(3, 3, 1015);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'sumDoubleTest')
+data.setCell(4, 2, 'com.epam.tat.module4.test.SumDoubleTest')
+data.setCell(4, 3, 1015);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'subTest')
+data.setCell(5, 2, 'com.epam.tat.module4.test.SubTest')
+data.setCell(5, 3, 1015);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'subTest')
+data.setCell(6, 2, 'com.epam.tat.module4.test.SubTest')
+data.setCell(6, 3, 1015);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'powTest')
+data.setCell(7, 2, 'com.epam.tat.module4.test.PowTest')
+data.setCell(7, 3, 1015);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'divTest')
+data.setCell(8, 2, 'com.epam.tat.module4.test.DivTest')
+data.setCell(8, 3, 1015);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'divDoubleTest')
+data.setCell(9, 2, 'com.epam.tat.module4.test.DivDoubleTest')
+data.setCell(9, 3, 1015);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'subTest')
+data.setCell(10, 2, 'com.epam.tat.module4.test.SubDoubleTest')
+data.setCell(10, 3, 1001);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'sumTest')
+data.setCell(11, 2, 'com.epam.tat.module4.test.SumTest')
+data.setCell(11, 3, 1001);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'sumDoubleTest')
+data.setCell(12, 2, 'com.epam.tat.module4.test.SumDoubleTest')
+data.setCell(12, 3, 1001);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'subTest')
+data.setCell(13, 2, 'com.epam.tat.module4.test.SubTest')
+data.setCell(13, 3, 1001);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'subTest')
+data.setCell(14, 2, 'com.epam.tat.module4.test.SubTest')
+data.setCell(14, 3, 1001);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'isPositiveTest')
+data.setCell(15, 2, 'com.epam.tat.module4.test.PositiveNegativeTest')
+data.setCell(15, 3, 1001);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'isNegativeTest')
+data.setCell(16, 2, 'com.epam.tat.module4.test.PositiveNegativeTest')
+data.setCell(16, 3, 1001);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'divDoubleTest')
+data.setCell(17, 2, 'com.epam.tat.module4.test.DivDoubleTest')
+data.setCell(17, 3, 1001);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'zeroDivisionTest')
+data.setCell(18, 2, 'com.epam.tat.module4.test.DivDoubleTest')
+data.setCell(18, 3, 1001);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'subTest')
+data.setCell(19, 2, 'com.epam.tat.module4.test.SubDoubleTest')
+data.setCell(19, 3, 1000);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'sumTest')
+data.setCell(20, 2, 'com.epam.tat.module4.test.SumTest')
+data.setCell(20, 3, 1000);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'sumDoubleTest')
+data.setCell(21, 2, 'com.epam.tat.module4.test.SumDoubleTest')
+data.setCell(21, 3, 1000);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'simpleMultTest')
+data.setCell(22, 2, 'com.epam.tat.module4.test.MultTest')
+data.setCell(22, 3, 1000);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'sumDoubleTest')
+data.setCell(23, 2, 'com.epam.tat.module4.test.MultDoubleTest')
+data.setCell(23, 3, 1000);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'sumDoubleTest')
+data.setCell(24, 2, 'com.epam.tat.module4.test.MultDoubleTest')
+data.setCell(24, 3, 1000);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'subTest')
+data.setCell(25, 2, 'com.epam.tat.module4.test.SubTest')
+data.setCell(25, 3, 1000);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'subTest')
+data.setCell(26, 2, 'com.epam.tat.module4.test.SubTest')
+data.setCell(26, 3, 1000);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'divTest')
+data.setCell(27, 2, 'com.epam.tat.module4.test.DivTest')
+data.setCell(27, 3, 1000);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'sumDoubleTest')
+data.setCell(28, 2, 'com.epam.tat.module4.test.MultDoubleTest')
+data.setCell(28, 3, 0);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'zeroDivisionTest')
+data.setCell(29, 2, 'com.epam.tat.module4.test.DivTest')
+data.setCell(29, 3, 0);
+window.suiteTableData['Parallel_(0)']= { tableData: data, tableDiv: 'times-div-Parallel_(0)'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 28 seconds</span>
+              <div id="times-div-Parallel_(0)">
+              </div> <!-- times-div-Parallel_(0) -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Calculator" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Calculator</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Calculator');
+function tableData_Calculator() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(0);
+window.suiteTableData['Calculator']= { tableData: data, tableDiv: 'times-div-Calculator'}
+return data;
+}
+              </script>
+              <div id="times-div-Calculator">
+              </div> <!-- times-div-Calculator -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-CalculatorSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for CalculatorSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_CalculatorSuite');
+function tableData_CalculatorSuite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(30);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'sumTest')
+data.setCell(0, 2, 'com.epam.tat.module4.test.SumTest')
+data.setCell(0, 3, 1030);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'sumDoubleTest')
+data.setCell(1, 2, 'com.epam.tat.module4.test.SumDoubleTest')
+data.setCell(1, 3, 1020);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'subTest')
+data.setCell(2, 2, 'com.epam.tat.module4.test.SubTest')
+data.setCell(2, 3, 1016);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'simpleMultTest')
+data.setCell(3, 2, 'com.epam.tat.module4.test.MultTest')
+data.setCell(3, 3, 1016);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'sumDoubleTest')
+data.setCell(4, 2, 'com.epam.tat.module4.test.MultDoubleTest')
+data.setCell(4, 3, 1016);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'divTest')
+data.setCell(5, 2, 'com.epam.tat.module4.test.DivTest')
+data.setCell(5, 3, 1016);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'isPositiveTest')
+data.setCell(6, 2, 'com.epam.tat.module4.test.PositiveNegativeTest')
+data.setCell(6, 3, 1016);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'sumDoubleTest')
+data.setCell(7, 2, 'com.epam.tat.module4.test.SumDoubleTest')
+data.setCell(7, 3, 1015);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'sumDoubleTest')
+data.setCell(8, 2, 'com.epam.tat.module4.test.SumDoubleTest')
+data.setCell(8, 3, 1015);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'subTest')
+data.setCell(9, 2, 'com.epam.tat.module4.test.SubTest')
+data.setCell(9, 3, 1015);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'subTest')
+data.setCell(10, 2, 'com.epam.tat.module4.test.SubTest')
+data.setCell(10, 3, 1015);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'subTest')
+data.setCell(11, 2, 'com.epam.tat.module4.test.SubTest')
+data.setCell(11, 3, 1015);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'subTest')
+data.setCell(12, 2, 'com.epam.tat.module4.test.SubDoubleTest')
+data.setCell(12, 3, 1015);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'divTest')
+data.setCell(13, 2, 'com.epam.tat.module4.test.DivTest')
+data.setCell(13, 3, 1015);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'divDoubleTest')
+data.setCell(14, 2, 'com.epam.tat.module4.test.DivDoubleTest')
+data.setCell(14, 3, 1015);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'divDoubleTest')
+data.setCell(15, 2, 'com.epam.tat.module4.test.DivDoubleTest')
+data.setCell(15, 3, 1015);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'divDoubleTest')
+data.setCell(16, 2, 'com.epam.tat.module4.test.DivDoubleTest')
+data.setCell(16, 3, 1015);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'powTest')
+data.setCell(17, 2, 'com.epam.tat.module4.test.PowTest')
+data.setCell(17, 3, 1015);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'isNegativeTest')
+data.setCell(18, 2, 'com.epam.tat.module4.test.PositiveNegativeTest')
+data.setCell(18, 3, 1015);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'subTest')
+data.setCell(19, 2, 'com.epam.tat.module4.test.SubTest')
+data.setCell(19, 3, 1014);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'subTest')
+data.setCell(20, 2, 'com.epam.tat.module4.test.SubTest')
+data.setCell(20, 3, 1014);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'divTest')
+data.setCell(21, 2, 'com.epam.tat.module4.test.DivTest')
+data.setCell(21, 3, 1014);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'sumTest')
+data.setCell(22, 2, 'com.epam.tat.module4.test.SumTest')
+data.setCell(22, 3, 1002);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'subTest')
+data.setCell(23, 2, 'com.epam.tat.module4.test.SubDoubleTest')
+data.setCell(23, 3, 1001);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'sumTest')
+data.setCell(24, 2, 'com.epam.tat.module4.test.SumTest')
+data.setCell(24, 3, 1000);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'subTest')
+data.setCell(25, 2, 'com.epam.tat.module4.test.SubDoubleTest')
+data.setCell(25, 3, 1000);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'sumDoubleTest')
+data.setCell(26, 2, 'com.epam.tat.module4.test.MultDoubleTest')
+data.setCell(26, 3, 1000);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'zeroDivisionTest')
+data.setCell(27, 2, 'com.epam.tat.module4.test.DivDoubleTest')
+data.setCell(27, 3, 1000);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'sumDoubleTest')
+data.setCell(28, 2, 'com.epam.tat.module4.test.MultDoubleTest')
+data.setCell(28, 3, 0);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'zeroDivisionTest')
+data.setCell(29, 2, 'com.epam.tat.module4.test.DivTest')
+data.setCell(29, 3, 0);
+window.suiteTableData['CalculatorSuite']= { tableData: data, tableDiv: 'times-div-CalculatorSuite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 28 seconds</span>
+              <div id="times-div-CalculatorSuite">
+              </div> <!-- times-div-CalculatorSuite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Parallel" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Parallel</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Parallel');
+function tableData_Parallel() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(0);
+window.suiteTableData['Parallel']= { tableData: data, tableDiv: 'times-div-Parallel'}
+return data;
+}
+              </script>
+              <div id="times-div-Parallel">
+              </div> <!-- times-div-Parallel -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Parallel_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Parallel (0)</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Calculator" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Calculator</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-CalculatorSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for CalculatorSuite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Parallel" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Parallel</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Parallel_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Calculator" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-CalculatorSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Parallel" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Parallel_(0)" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.SumDoubleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.SubTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.SumTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.SubDoubleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.SubTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">subTest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.SubDoubleTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">subTest(35, 0.2, 34.8)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.SumDoubleTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">sumDoubleTest(0.5, 0.75, 1.25)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.SumTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">sumTest(1, 1, 2)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.SubTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">1015 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.SubDoubleTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">subTest(0, 0, 0)</span>
+                <span class="method-start">1015 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.SubTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">subTest</span>
+                <span class="method-start">1015 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.SumDoubleTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">sumDoubleTest(1, 3, 4)</span>
+                <span class="method-start">1015 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.SumTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">sumTest(0, 1, 1)</span>
+                <span class="method-start">1015 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.SubTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1015 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">2016 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.SubDoubleTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">subTest(-0.3, 2.4, -2.7)</span>
+                <span class="method-start">2016 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.SubTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">subTest</span>
+                <span class="method-start">2016 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.SumDoubleTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">sumDoubleTest(-6.3, 0, -6.3)</span>
+                <span class="method-start">2016 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.SumTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">sumTest(-1, 1, 0)</span>
+                <span class="method-start">2016 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.SubTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">2016 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">3016 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">subTest</span>
+                <span class="method-start">3016 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.SumTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">3016 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.SumDoubleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">3016 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.SubDoubleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">3016 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.SubTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">3016 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.MultTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">3079 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.MultDoubleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">3079 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.MultTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">simpleMultTest</span>
+                <span class="method-start">3079 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.MultDoubleTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">sumDoubleTest(0.5, 0.5, 0.25)</span>
+                <span class="method-start">3079 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sumDoubleTest(15, 3, 45)</span>
+                <span class="method-start">3079 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.DivTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">divTest(4, 2, 2)</span>
+                <span class="method-start">3101 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">3101 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.SubTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">4016 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">subTest</span>
+                <span class="method-start">4016 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">4016 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.MultDoubleTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">sumDoubleTest(6.3, 0, 0)</span>
+                <span class="method-start">4079 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.MultTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">4079 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.DivDoubleTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">divDoubleTest(34.0, 2.0, 17.0)</span>
+                <span class="method-start">4101 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">4101 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.DivTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">divTest(0, 4, 0)</span>
+                <span class="method-start">4117 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.SubTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">5017 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">subTest</span>
+                <span class="method-start">5017 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">5017 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.MultDoubleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">5079 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.DivDoubleTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">divDoubleTest(0.0, 2.253546246E9, 0.0)</span>
+                <span class="method-start">5117 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.DivTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">divTest(-2, 1, -2)</span>
+                <span class="method-start">5117 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.PowTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">powTest(2.0, 3.0, 8.0)</span>
+                <span class="method-start">5117 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">5117 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.SubTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">6032 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.PositiveNegativeTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">isNegativeTest</span>
+                <span class="method-start">6063 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">6063 ms</span>
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.DivDoubleTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">divDoubleTest(-12.0, 2.0, -6.0)</span>
+                <span class="method-start">6132 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.DivTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">6132 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.PowTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">6132 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.DivTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">zeroDivisionTest</span>
+                <span class="method-start">6132 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.PositiveNegativeTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">isPositiveTest</span>
+                <span class="method-start">7064 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.DivDoubleTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">zeroDivisionTest</span>
+                <span class="method-start">7133 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.PositiveNegativeTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">8065 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.DivDoubleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">8134 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Calculator" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-CalculatorSuite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.SumTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">sumTest(1, 1, 2)</span>
+                <span class="method-start">10 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sumTest(0, 1, 1)</span>
+                <span class="method-start">1040 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sumTest(-1, 1, 0)</span>
+                <span class="method-start">2042 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">3042 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.SumDoubleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">3105 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">sumDoubleTest(0.5, 0.75, 1.25)</span>
+                <span class="method-start">3105 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sumDoubleTest(1, 3, 4)</span>
+                <span class="method-start">4121 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sumDoubleTest(-6.3, 0, -6.3)</span>
+                <span class="method-start">5141 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">6156 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.SubTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">6225 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">subTest</span>
+                <span class="method-start">6225 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">7239 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">subTest</span>
+                <span class="method-start">7239 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">7239 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">8254 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">subTest</span>
+                <span class="method-start">8254 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">8254 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">9270 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">subTest</span>
+                <span class="method-start">9270 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">9270 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">10284 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">subTest</span>
+                <span class="method-start">10284 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">10284 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">11299 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">subTest</span>
+                <span class="method-start">11299 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">11299 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">12315 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.SubDoubleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">12368 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">subTest(35, 0.2, 34.8)</span>
+                <span class="method-start">12368 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">subTest(0, 0, 0)</span>
+                <span class="method-start">13383 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">subTest(-0.3, 2.4, -2.7)</span>
+                <span class="method-start">14383 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">15384 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.MultTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">15419 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">simpleMultTest</span>
+                <span class="method-start">15420 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">16436 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.MultDoubleTest</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">16467 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">sumDoubleTest(0.5, 0.5, 0.25)</span>
+                <span class="method-start">16467 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sumDoubleTest(15, 3, 45)</span>
+                <span class="method-start">16467 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">sumDoubleTest(6.3, 0, 0)</span>
+                <span class="method-start">17483 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">18483 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.DivTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">divTest(4, 2, 2)</span>
+                <span class="method-start">18521 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">18521 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">divTest(0, 4, 0)</span>
+                <span class="method-start">19537 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">divTest(-2, 1, -2)</span>
+                <span class="method-start">20551 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">21566 ms</span>
+              </div> <!-- configuration-class after -->
+              <div class="test-method">
+                <span class="method-name">zeroDivisionTest</span>
+                <span class="method-start">21566 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.DivDoubleTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">divDoubleTest(34.0, 2.0, 17.0)</span>
+                <span class="method-start">21619 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">21619 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">divDoubleTest(0.0, 2.253546246E9, 0.0)</span>
+                <span class="method-start">22634 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">divDoubleTest(-12.0, 2.0, -6.0)</span>
+                <span class="method-start">23649 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">zeroDivisionTest</span>
+                <span class="method-start">24664 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">25664 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.PowTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">powTest(2.0, 3.0, 8.0)</span>
+                <span class="method-start">25696 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">25696 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">26711 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.epam.tat.module4.test.PositiveNegativeTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">isNegativeTest</span>
+                <span class="method-start">26733 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">26733 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">isPositiveTest</span>
+                <span class="method-start">27748 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">28764 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Parallel" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

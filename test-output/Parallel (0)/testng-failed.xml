@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="4" guice-stage="DEVELOPMENT" name="Failed suite [Parallel (0)]" parallel="tests">
+  <parameter name="arg2" value="3"/>
+  <parameter name="arg1" value="2"/>
+  <parameter name="expected" value="8"/>
+  <test name="MultDoubleTest(failed)" parallel="tests">
+    <classes>
+      <class name="com.epam.tat.module4.test.SumTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.epam.tat.module4.test.SumTest -->
+      <class name="com.epam.tat.module4.test.DivDoubleTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.epam.tat.module4.test.DivDoubleTest -->
+      <class name="com.epam.tat.module4.test.SubDoubleTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.epam.tat.module4.test.SubDoubleTest -->
+      <class name="com.epam.tat.module4.test.MultDoubleTest">
+        <methods>
+          <include name="sumDoubleTest" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.epam.tat.module4.test.MultDoubleTest -->
+      <class name="com.epam.tat.module4.test.PowTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.epam.tat.module4.test.PowTest -->
+      <class name="com.epam.tat.module4.test.PositiveNegativeTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.epam.tat.module4.test.PositiveNegativeTest -->
+      <class name="com.epam.tat.module4.test.DivTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.epam.tat.module4.test.DivTest -->
+      <class name="com.epam.tat.module4.test.MultTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.epam.tat.module4.test.MultTest -->
+      <class name="com.epam.tat.module4.test.SumDoubleTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.epam.tat.module4.test.SumDoubleTest -->
+      <class name="com.epam.tat.module4.test.SubTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.epam.tat.module4.test.SubTest -->
+    </classes>
+  </test> <!-- MultDoubleTest(failed) -->
+  <test name="DivDoubleTest(failed)" parallel="tests">
+    <classes>
+      <class name="com.epam.tat.module4.test.SumTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.epam.tat.module4.test.SumTest -->
+      <class name="com.epam.tat.module4.test.DivDoubleTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="zeroDivisionTest"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.epam.tat.module4.test.DivDoubleTest -->
+      <class name="com.epam.tat.module4.test.SubDoubleTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.epam.tat.module4.test.SubDoubleTest -->
+      <class name="com.epam.tat.module4.test.MultDoubleTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.epam.tat.module4.test.MultDoubleTest -->
+      <class name="com.epam.tat.module4.test.PowTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.epam.tat.module4.test.PowTest -->
+      <class name="com.epam.tat.module4.test.PositiveNegativeTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.epam.tat.module4.test.PositiveNegativeTest -->
+      <class name="com.epam.tat.module4.test.DivTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.epam.tat.module4.test.DivTest -->
+      <class name="com.epam.tat.module4.test.MultTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.epam.tat.module4.test.MultTest -->
+      <class name="com.epam.tat.module4.test.SumDoubleTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.epam.tat.module4.test.SumDoubleTest -->
+      <class name="com.epam.tat.module4.test.SubTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.epam.tat.module4.test.SubTest -->
+    </classes>
+  </test> <!-- DivDoubleTest(failed) -->
+</suite> <!-- Failed suite [Parallel (0)] -->

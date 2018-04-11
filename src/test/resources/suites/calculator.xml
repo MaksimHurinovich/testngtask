@@ -1,0 +1,80 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="CalculatorSuite" verbose="1">
+
+    <test name="SumTest">
+        <classes>
+            <class name="com.epam.tat.module4.test.SumTest">
+            </class>
+        </classes>
+    </test>
+
+    <test name="SumDoubleTest">
+        <classes>
+            <class name="com.epam.tat.module4.test.SumDoubleTest">
+            </class>
+        </classes>
+    </test>
+
+    <test name="SubTest">
+        <classes>
+            <class name="com.epam.tat.module4.test.SubTestFactory">
+            </class>
+        </classes>
+    </test>
+
+    <test name="SubDoubleTest">
+        <classes>
+            <class name="com.epam.tat.module4.test.SubDoubleTest">
+            </class>
+        </classes>
+    </test>
+
+    <test name="MultTest">
+        <classes>
+            <class name="com.epam.tat.module4.test.MultTest">
+            </class>
+        </classes>
+    </test>
+
+    <test name="MultDoubleTest">
+        <classes>
+            <class name="com.epam.tat.module4.test.MultDoubleTest">
+            </class>
+        </classes>
+    </test>
+
+    <test name="DivTest">
+        <classes>
+            <class name="com.epam.tat.module4.test.DivTest">
+            </class>
+        </classes>
+    </test>
+
+    <test name="DivDoubleTest">
+        <classes>
+            <class name="com.epam.tat.module4.test.DivDoubleTest">
+            </class>
+        </classes>
+    </test>
+
+    <test name="PowTest">
+        <classes>
+            <class name="com.epam.tat.module4.test.PowTest">
+            </class>
+            <parameter name="arg1" value="2"/>
+            <parameter name="arg2" value="3"/>
+            <parameter name="expected" value="8"/>
+        </classes>
+    </test>
+
+    <test name="PositiveNegativeTest">
+        <classes>
+            <class name="com.epam.tat.module4.test.PositiveNegativeTest">
+            </class>
+            <parameter name="arg1" value="2"/>
+            <parameter name="arg2" value="3"/>
+            <parameter name="expected" value="8"/>
+        </classes>
+    </test>
+</suite>
